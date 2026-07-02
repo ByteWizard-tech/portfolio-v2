@@ -1,10 +1,10 @@
 import "./styles/Work.css";
-import WorkImage from "./WorkImage";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
 import { config } from "../config";
 import { Link } from "react-router-dom";
+import { FaGithub } from "react-icons/fa6";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -58,6 +58,7 @@ const Work = () => {
       ScrollTrigger.getById("work")?.kill();
     };
   }, []);
+
   return (
     <div className="work-section" id="work">
       <div className="work-container section-container">
@@ -70,7 +71,6 @@ const Work = () => {
               <div className="work-info">
                 <div className="work-title">
                   <h3>0{index + 1}</h3>
-
                   <div>
                     <h4>{project.title}</h4>
                     <p>{project.category}</p>
@@ -79,7 +79,20 @@ const Work = () => {
                 <h4>Tools and features</h4>
                 <p>{project.technologies}</p>
               </div>
-              <WorkImage image={project.image} alt={project.title} />
+              {/* GitHub link replaces broken image placeholder */}
+              <div className="work-github-link">
+                <p className="work-description">{project.description}</p>
+                <a
+                  href={(project as any).github || "https://github.com/ByteWizard-tech"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="work-github-btn"
+                  data-cursor="disable"
+                >
+                  <FaGithub />
+                  View on GitHub
+                </a>
+              </div>
             </div>
           ))}
           {/* See All Works Button */}

@@ -1,191 +1,185 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Omesh",
+        fullName: "Omesh Sengar",
+        title: "Developer & Researcher",
+        description: "Developer & Researcher building intelligent systems and modern web applications. Passionate about machine learning, deep learning, computer vision, and creating next-gen digital experiences."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "ByteWizard-tech",
+        email: "omesh@omeshsengar.com",
+        location: "India"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I'm a Developer and Researcher passionate about building intelligent systems and modern digital experiences. I specialize in Machine Learning, Deep Learning, Computer Vision, and Full-Stack Web Development. Currently researching explainability in neural networks (SuperHybridNet XAI) and building projects that bridge the gap between research and real-world impact. Code is my medium, curiosity is my compass."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "B.E. Computer Science & Engineering",
+            company: "RVCE — RV College of Engineering",
+            period: "2024 - Present",
+            location: "Bengaluru, India",
+            description: "Pursuing a B.E. in Computer Science & Engineering at RVCE (2024–2028). Actively building projects, conducting research in explainable AI, and exploring full-stack development alongside coursework in algorithms, digital electronics, and systems programming.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Researching explainability in neural networks (SuperHybridNet XAI)",
+                "Building full-stack web applications and developer tools",
+                "Studying core CSE subjects: algorithms, OS, DBMS, computer networks",
+                "Working on interdisciplinary projects bridging ML research and software"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["Python", "C", "C++", "Verilog", "React", "Node.js", "PyTorch", "Research"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            position: "Researcher — XAI",
+            company: "SuperHybridNet Project",
+            period: "2024 - Present",
+            location: "India",
+            description: "Researching explainability methods for the SuperHybridNet architecture using GradCAM, SHAP, and attention visualization techniques to understand deep learning model decisions.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Implementing GradCAM and SHAP-based explanations for neural networks",
+                "Analyzing SuperHybridNet architecture layer activations",
+                "Writing research documentation and visualization scripts",
+                "Comparing XAI methods across different model architectures"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            technologies: ["Python", "PyTorch", "GradCAM", "SHAP", "NumPy", "Matplotlib", "XAI"]
         },
         {
             position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            company: "FinanceAI Dashboard",
+            period: "2024 - Present",
+            location: "India",
+            description: "Built a full-stack personal finance dashboard featuring AI-powered transaction categorization, spending insights, budget tracking, and interactive charts.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Designed and built React 19 frontend with Recharts visualizations",
+                "Built Express + SQLite backend with JWT authentication",
+                "Implemented AI-driven transaction categorization and insights",
+                "Deployed with automated financial analysis and forecasting"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
+            technologies: ["React", "Node.js", "Express", "SQLite", "Vite", "JWT", "Recharts"]
+        },
+        {
+            position: "Web Developer",
+            company: "Portfolio & Projects",
+            period: "2024 - Present",
+            location: "India",
+            description: "Built personal portfolio and various web projects, experimenting with 3D web experiences using Spline, modern animations, and responsive design principles.",
+            responsibilities: [
+                "Developed personal portfolio with Spline 3D background",
+                "Built responsive UI components and CSS animations",
+                "Experimented with modern design trends and micro-interactions",
+                "Deployed projects on Vercel and GitHub Pages"
+            ],
+            technologies: ["HTML", "CSS", "JavaScript", "Spline", "Figma", "Vercel"]
         },
         {
             position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
+            company: "Automation & Scripts",
+            period: "2024 - Present",
+            location: "India",
+            description: "Dived deep into Python programming, building automation scripts, data processing tools, and exploring machine learning fundamentals.",
             responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
+                "Building automation scripts and developer utilities",
+                "Exploring data structures, algorithms, and competitive programming",
+                "Learning machine learning fundamentals with scikit-learn",
+                "Contributing to open-source projects and communities"
             ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["Python", "Automation", "Scikit-learn", "NumPy", "Problem Solving"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            title: "FinanceAI Dashboard",
+            category: "Full Stack",
+            technologies: "React, Node.js, SQLite, Express, Vite, JWT, Recharts",
+            image: "/images/finance.png",
+            github: "https://github.com/ByteWizard-tech",
+            description: "A full-stack personal finance dashboard featuring AI-powered auto-categorization, spending insights, budget tracking, and interactive visualizations. Built with React 19, Express, and SQLite with JWT authentication."
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
+            title: "SHNet XAI",
+            category: "AI / Research",
+            technologies: "Python, PyTorch, GradCAM, SHAP, NumPy, Matplotlib",
+            image: "/images/shnet.png",
+            github: "https://github.com/ByteWizard-tech",
+            description: "Explainability analysis for the SuperHybridNet (SHNet) architecture. Implements GradCAM, SHAP, and attention-based visualization to understand and interpret deep neural network decisions."
         },
         {
             id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
+            title: "Portfolio v1",
+            category: "Web Dev",
+            technologies: "HTML, CSS, JavaScript, Spline 3D",
+            image: "/images/portfolio1.png",
+            github: "https://github.com/ByteWizard-tech",
+            description: "Personal developer portfolio with a Spline 3D animated background, smooth scroll animations, project showcase, music/vibes section, and a clean dark design. Deployed on Vercel."
         },
         {
             id: 4,
-            title: "GameKroy",
+            title: "ByteWizard Tools",
             category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
+            technologies: "React, Node.js, TypeScript, REST APIs",
+            image: "/images/bytetools.png",
+            github: "https://github.com/ByteWizard-tech",
+            description: "A developer tools platform providing utilities for code formatting, JSON parsing, regex testing, and more. Built with a clean, fast React frontend and Node.js backend."
         },
         {
             id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
+            title: "Algo Visualizer",
+            category: "Educational",
+            technologies: "React, CSS Animations, JavaScript",
+            image: "/images/algoviz.png",
+            github: "https://github.com/ByteWizard-tech",
+            description: "An interactive algorithm visualizer for sorting and graph traversal algorithms. Visualizes Bubble Sort, Merge Sort, Quick Sort, BFS, and DFS with step-by-step animations."
         },
         {
             id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
+            title: "Neural Style Transfer",
+            category: "AI / Computer Vision",
+            technologies: "Python, TensorFlow, NumPy, Pillow",
+            image: "/images/nst.png",
+            github: "https://github.com/ByteWizard-tech",
+            description: "Artistic neural style transfer implementation using VGG-19. Transfers artistic styles from painting references onto photographs using deep feature representations."
         },
         {
             id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
+            title: "Dev Chat",
+            category: "Full Stack",
+            technologies: "React, Node.js, Socket.io, MongoDB",
+            image: "/images/devchat.png",
+            github: "https://github.com/ByteWizard-tech",
+            description: "A real-time developer chat application with rooms, private messaging, code snippet sharing with syntax highlighting, and a clean dark-themed interface."
         },
         {
             id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
+            title: "AutoScript",
+            category: "Automation",
+            technologies: "Python, PyAutoGUI, Schedule, SQLite",
+            image: "/images/autoscript.png",
+            github: "https://github.com/ByteWizard-tech",
+            description: "A Python-based automation toolkit for repetitive tasks — file organization, batch processing, scheduled jobs, web scraping, and system monitoring utilities."
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "omesh@omeshsengar.com",
+        github: "https://github.com/ByteWizard-tech",
+        linkedin: "https://linkedin.com/in/omeshsengar",
+        twitter: "https://x.com/omeshsengar",
+        facebook: "https://www.facebook.com/omeshsengar",
+        instagram: "https://www.instagram.com/omeshsengar"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "DEVELOPER",
+            description: "Building full-stack web apps & intelligent systems",
+            details: "Developing modern web applications from frontend to backend. Building APIs, interactive UIs, and scalable systems using React, Node.js, Python, and TypeScript.",
+            tools: ["Python", "JavaScript", "TypeScript", "React", "Node.js", "HTML", "CSS", "C/C++", "Verilog", "Git", "Linux", "Figma", "REST APIs", "Docker"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "RESEARCHER",
+            description: "ML/DL research, XAI & Computer Vision",
+            details: "Working on machine learning, deep learning, and explainable AI research. Specializing in neural network interpretability, computer vision pipelines, and bridging research with practical applications.",
+            tools: ["PyTorch", "TensorFlow", "GradCAM", "SHAP", "NumPy", "Pandas", "Matplotlib", "Scikit-learn", "OpenCV", "Jupyter", "XAI", "Computer Vision", "NLP", "Research"]
         }
     }
 };

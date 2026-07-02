@@ -350,3 +350,49 @@
     font-size: 14px;
   }
 }
+
+/* GitHub link section (replaces image placeholder) */
+.work-github-link {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.work-description {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.6;
+  font-weight: 300;
+  margin: 0;
+}
+
+.work-github-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+
+.work-github-btn svg {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.work-github-btn:hover {
+  background: var(--accentColor);
+  border-color: var(--accentColor);
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(194, 164, 255, 0.35);
+}

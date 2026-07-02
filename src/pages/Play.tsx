@@ -367,8 +367,8 @@ const Play = () => {
           {/* Opponent Info - Top of Board */}
           <div className="player-bar opponent-bar">
             <div className="player-info">
-              <div className="player-avatar">
-                <img src="/images/mypic.jpeg" alt="Omesh" />
+              <div className="player-avatar player-avatar-initials">
+                <span>AI</span>
               </div>
               <div className="player-details">
                 <span className="player-name">Omesh</span>

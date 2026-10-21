@@ -39,7 +39,11 @@ export async function onRequestPost({ request, env }) {
 
     const data = await response.json();
     if (!response.ok) {
-      return json({ error: data.error?.message || "Failed to fetch from Groq" }, 502);
+      // Not 502: Cloudflare replaces 502 responses with its own error page, hiding the reason.
+      return json(
+        { error: data.error?.message || "Failed to fetch from Groq", upstreamStatus: response.status },
+        500
+      );
     }
     return json(data);
   } catch (error) {

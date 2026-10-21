@@ -9,7 +9,7 @@ const json = (body, status = 200) =>
   });
 
 export async function onRequestPost({ request, env }) {
-  const apiKey = env.GROQ_API_KEY;
+  const apiKey = (env.GROQ_API_KEY || "").trim();
   if (!apiKey) {
     return json({ error: "Server configuration error: Missing API Key" }, 500);
   }

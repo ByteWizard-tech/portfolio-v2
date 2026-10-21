@@ -17,147 +17,69 @@ export const config = {
     experiences: [
         {
             position: "B.E. Computer Science & Engineering",
-            company: "RVCE — RV College of Engineering",
-            period: "2024 - Present",
+            company: "RV College of Engineering, Bengaluru",
+            period: "2024 - 2028",
             location: "Bengaluru, India",
-            description: "Pursuing a B.E. in Computer Science & Engineering at RVCE (2024–2028). Actively building projects, conducting research in explainable AI, and exploring full-stack development alongside coursework in algorithms, digital electronics, and systems programming.",
-            responsibilities: [
-                "Researching explainability in neural networks (SuperHybridNet XAI)",
-                "Building full-stack web applications and developer tools",
-                "Studying core CSE subjects: algorithms, OS, DBMS, computer networks",
-                "Working on interdisciplinary projects bridging ML research and software"
-            ],
-            technologies: ["Python", "C", "C++", "Verilog", "React", "Node.js", "PyTorch", "Research"]
+            description: "Core CSE coursework in algorithms, operating systems, DBMS, digital design and computer organization, with most course projects shipped as working software, from a Verilog CPU to an algorithm-driven logistics optimizer.",
+            responsibilities: [],
+            technologies: ["Python", "C", "C++", "Verilog", "React", "Node.js", "PyTorch"]
         },
         {
-            position: "Researcher — XAI",
-            company: "SuperHybridNet Project",
-            period: "2024 - Present",
+            position: "Researcher, Explainable AI",
+            company: "SuperHybridNet (SHNet)",
+            period: "Ongoing",
             location: "India",
-            description: "Researching explainability methods for the SuperHybridNet architecture using GradCAM, SHAP, and attention visualization techniques to understand deep learning model decisions.",
-            responsibilities: [
-                "Implementing GradCAM and SHAP-based explanations for neural networks",
-                "Analyzing SuperHybridNet architecture layer activations",
-                "Writing research documentation and visualization scripts",
-                "Comparing XAI methods across different model architectures"
-            ],
-            technologies: ["Python", "PyTorch", "GradCAM", "SHAP", "NumPy", "Matplotlib", "XAI"]
+            description: "Studying how the SuperHybridNet architecture makes decisions, using GradCAM, SHAP and attention visualization to interpret layer activations and compare explainability methods across models.",
+            responsibilities: [],
+            technologies: ["Python", "PyTorch", "GradCAM", "SHAP", "XAI"]
         },
         {
-            position: "Full-Stack Developer",
-            company: "FinanceAI Dashboard",
-            period: "2024 - Present",
+            position: "Independent Developer",
+            company: "Projects & Hackathons",
+            period: "2025 - Present",
             location: "India",
-            description: "Built a full-stack personal finance dashboard featuring AI-powered transaction categorization, spending insights, budget tracking, and interactive charts.",
-            responsibilities: [
-                "Designed and built React 19 frontend with Recharts visualizations",
-                "Built Express + SQLite backend with JWT authentication",
-                "Implemented AI-driven transaction categorization and insights",
-                "Deployed with automated financial analysis and forecasting"
-            ],
-            technologies: ["React", "Node.js", "Express", "SQLite", "Vite", "JWT", "Recharts"]
-        },
-        {
-            position: "Web Developer",
-            company: "Portfolio & Projects",
-            period: "2024 - Present",
-            location: "India",
-            description: "Built personal portfolio and various web projects, experimenting with 3D web experiences using Spline, modern animations, and responsive design principles.",
-            responsibilities: [
-                "Developed personal portfolio with Spline 3D background",
-                "Built responsive UI components and CSS animations",
-                "Experimented with modern design trends and micro-interactions",
-                "Deployed projects on Vercel and GitHub Pages"
-            ],
-            technologies: ["HTML", "CSS", "JavaScript", "Spline", "Figma", "Vercel"]
-        },
-        {
-            position: "Python Developer",
-            company: "Automation & Scripts",
-            period: "2024 - Present",
-            location: "India",
-            description: "Dived deep into Python programming, building automation scripts, data processing tools, and exploring machine learning fundamentals.",
-            responsibilities: [
-                "Building automation scripts and developer utilities",
-                "Exploring data structures, algorithms, and competitive programming",
-                "Learning machine learning fundamentals with scikit-learn",
-                "Contributing to open-source projects and communities"
-            ],
-            technologies: ["Python", "Automation", "Scikit-learn", "NumPy", "Problem Solving"]
+            description: "Building end-to-end products across full-stack web, computer vision and embedded systems: a finance dashboard with AI insights, a cricket batting analyser, an ESP32 smart-metering testbed, and FairPay, a gig-worker payout auditor built at a hackathon.",
+            responsibilities: [],
+            technologies: ["React", "Node.js", "FastAPI", "OpenCV", "MediaPipe", "ESP32"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "FinanceAI Dashboard",
-            category: "Full Stack",
-            technologies: "React, Node.js, SQLite, Express, Vite, JWT, Recharts",
-            image: "/images/finance.png",
-            github: "https://github.com/ByteWizard-tech",
-            description: "A full-stack personal finance dashboard featuring AI-powered auto-categorization, spending insights, budget tracking, and interactive visualizations. Built with React 19, Express, and SQLite with JWT authentication."
+            title: "CricketLytics",
+            category: "AI / Computer Vision",
+            technologies: "Python, MediaPipe, OpenCV, NumPy",
+            image: "",
+            github: "https://github.com/ByteWizard-tech/Criclytics",
+            description: "Analyses cricket batting technique from video. Tracks 33 body landmarks with MediaPipe, measures joint angles live, classifies shots (drive, pull, sweep, cut and more), tracks the ball and gives shot-specific posture coaching."
         },
         {
             id: 2,
-            title: "SHNet XAI",
-            category: "AI / Research",
-            technologies: "Python, PyTorch, GradCAM, SHAP, NumPy, Matplotlib",
-            image: "/images/shnet.png",
-            github: "https://github.com/ByteWizard-tech",
-            description: "Explainability analysis for the SuperHybridNet (SHNet) architecture. Implements GradCAM, SHAP, and attention-based visualization to understand and interpret deep neural network decisions."
+            title: "FinanceAI Dashboard",
+            category: "Full Stack",
+            technologies: "React, Node.js, Express, SQLite, JWT, Recharts",
+            image: "",
+            github: "https://github.com/ByteWizard-tech/finance-dashboard",
+            live: "https://finance-dashboard-teal-two.vercel.app",
+            description: "Personal finance dashboard with JWT auth, budgets and interactive charts. Auto-categorizes transactions, flags unusual spending, compares months and forecasts next month's expenses."
         },
         {
             id: 3,
-            title: "Portfolio v1",
-            category: "Web Dev",
-            technologies: "HTML, CSS, JavaScript, Spline 3D",
-            image: "/images/portfolio1.png",
-            github: "https://github.com/ByteWizard-tech",
-            description: "Personal developer portfolio with a Spline 3D animated background, smooth scroll animations, project showcase, music/vibes section, and a clean dark design. Deployed on Vercel."
+            title: "Logistics AI",
+            category: "Algorithms",
+            technologies: "Python, FastAPI, SQLite, JavaScript",
+            image: "",
+            github: "https://github.com/ByteWizard-tech/logistics_ai",
+            description: "Fleet routing optimizer for Bengaluru deliveries. Orders flow through a QuickSort priority triage, 0/1 Knapsack van packing and route optimization, visualised live on a synced web dashboard."
         },
         {
             id: 4,
-            title: "ByteWizard Tools",
-            category: "Full Stack",
-            technologies: "React, Node.js, TypeScript, REST APIs",
-            image: "/images/bytetools.png",
-            github: "https://github.com/ByteWizard-tech",
-            description: "A developer tools platform providing utilities for code formatting, JSON parsing, regex testing, and more. Built with a clean, fast React frontend and Node.js backend."
-        },
-        {
-            id: 5,
-            title: "Algo Visualizer",
-            category: "Educational",
-            technologies: "React, CSS Animations, JavaScript",
-            image: "/images/algoviz.png",
-            github: "https://github.com/ByteWizard-tech",
-            description: "An interactive algorithm visualizer for sorting and graph traversal algorithms. Visualizes Bubble Sort, Merge Sort, Quick Sort, BFS, and DFS with step-by-step animations."
-        },
-        {
-            id: 6,
-            title: "Neural Style Transfer",
-            category: "AI / Computer Vision",
-            technologies: "Python, TensorFlow, NumPy, Pillow",
-            image: "/images/nst.png",
-            github: "https://github.com/ByteWizard-tech",
-            description: "Artistic neural style transfer implementation using VGG-19. Transfers artistic styles from painting references onto photographs using deep feature representations."
-        },
-        {
-            id: 7,
-            title: "Dev Chat",
-            category: "Full Stack",
-            technologies: "React, Node.js, Socket.io, MongoDB",
-            image: "/images/devchat.png",
-            github: "https://github.com/ByteWizard-tech",
-            description: "A real-time developer chat application with rooms, private messaging, code snippet sharing with syntax highlighting, and a clean dark-themed interface."
-        },
-        {
-            id: 8,
-            title: "AutoScript",
-            category: "Automation",
-            technologies: "Python, PyAutoGUI, Schedule, SQLite",
-            image: "/images/autoscript.png",
-            github: "https://github.com/ByteWizard-tech",
-            description: "A Python-based automation toolkit for repetitive tasks — file organization, batch processing, scheduled jobs, web scraping, and system monitoring utilities."
+            title: "16-bit RISC CPU",
+            category: "Hardware / Verilog",
+            technologies: "Verilog, Icarus Verilog, JavaScript",
+            image: "",
+            github: "https://github.com/ByteWizard-tech/16bitcpu-verilog",
+            description: "A complete 16-bit RISC CPU in Verilog: ALU, register file, memories and an FSM control unit, plus an interactive visualizer that steps through fetch, decode, execute, memory and writeback cycle by cycle."
         }
     ],
     contact: {

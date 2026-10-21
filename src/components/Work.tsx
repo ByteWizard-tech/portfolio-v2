@@ -3,8 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
 import { config } from "../config";
-import { Link } from "react-router-dom";
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub, FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -66,7 +65,7 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {config.projects.slice(0, 5).map((project, index) => (
+          {config.projects.slice(0, 4).map((project, index) => (
             <div className="work-box" key={project.id}>
               <div className="work-info">
                 <div className="work-title">
@@ -82,16 +81,30 @@ const Work = () => {
               {/* GitHub link replaces broken image placeholder */}
               <div className="work-github-link">
                 <p className="work-description">{project.description}</p>
-                <a
-                  href={(project as any).github || "https://github.com/ByteWizard-tech"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="work-github-btn"
-                  data-cursor="disable"
-                >
-                  <FaGithub />
-                  View on GitHub
-                </a>
+                <div className="work-links">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="work-github-btn"
+                    data-cursor="disable"
+                  >
+                    <FaGithub />
+                    View on GitHub
+                  </a>
+                  {"live" in project && project.live && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="work-github-btn"
+                      data-cursor="disable"
+                    >
+                      <FaArrowUpRightFromSquare />
+                      Live demo
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}
@@ -99,10 +112,16 @@ const Work = () => {
           <div className="work-box work-box-cta">
             <div className="see-all-works">
               <h3>Want to see more?</h3>
-              <p>Explore all of my projects and creations</p>
-              <Link to="/myworks" className="see-all-btn" data-cursor="disable">
-                See All Works →
-              </Link>
+              <p>Everything else I've built lives on GitHub</p>
+              <a
+                href={`${config.contact.github}?tab=repositories`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="see-all-btn"
+                data-cursor="disable"
+              >
+                All repositories →
+              </a>
             </div>
           </div>
         </div>

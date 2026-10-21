@@ -7,7 +7,9 @@ const getDisplayYear = (period: string) => {
     return `${start}–Now`;
   }
   if (period.includes(" - ")) {
-    return period.replace(" - ", "–"); // Show full range e.g. 2024–2026
+    const [start, end] = period.split(" - ");
+    // Compact range: 2024 - 2028 -> 2024–28
+    return `${start}–${end.length === 4 ? end.slice(2) : end}`;
   }
   return period;
 };

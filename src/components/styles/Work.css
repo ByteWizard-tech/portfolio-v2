@@ -396,3 +396,8 @@
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(194, 164, 255, 0.35);
 }
+.work-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}

@@ -12,7 +12,7 @@ export const config = {
     },
     about: {
         title: "About Me",
-        description: "I'm a Developer and Researcher passionate about building intelligent systems and modern digital experiences. I specialize in Machine Learning, Deep Learning, Computer Vision, and Full-Stack Web Development. Currently researching explainability in neural networks (SuperHybridNet XAI) and building projects that bridge the gap between research and real-world impact. Code is my medium, curiosity is my compass."
+        description: "I'm a Computer Science student at RVCE and a researcher who builds complete systems, from sensor hardware and data pipelines to production dashboards. My work spans applied machine learning, embedded/IoT and full-stack development: an agentic framework for flagging inciting social media content (in revision at Springer SNAM), ML models for autism detection from fMRI, and an IoT lab monitor that won Best Paper at ICTST 2025."
     },
     experiences: [
         {
@@ -20,29 +20,51 @@ export const config = {
             company: "RV College of Engineering, Bengaluru",
             period: "2024 - 2028",
             location: "Bengaluru, India",
-            description: "Core CSE coursework in algorithms, operating systems, DBMS, digital design and computer organization, with most course projects shipped as working software, from a Verilog CPU to an algorithm-driven logistics optimizer.",
+            description: "GPA 9.23/10. Coursework in data structures & algorithms, discrete mathematics, computer networks and data science, with most course projects shipped as working systems, from a Verilog CPU to an algorithm-driven logistics optimizer.",
             responsibilities: [],
-            technologies: ["Python", "C", "C++", "Verilog", "React", "Node.js", "PyTorch"]
+            technologies: []
         },
         {
-            position: "Researcher, Explainable AI",
-            company: "SuperHybridNet (SHNet)",
-            period: "Ongoing",
+            position: "Researcher, IoT Systems",
+            company: "Best Paper Award, ICTST 2025",
+            period: "2025",
             location: "India",
-            description: "Studying how the SuperHybridNet architecture makes decisions, using GradCAM, SHAP and attention visualization to interpret layer activations and compare explainability methods across models.",
+            description: "Built and presented an IoT-integrated smart lab environment monitor at the IFRRA International Conference on Trends in Science and Technology (India–Malaysia), where it won Best Paper.",
             responsibilities: [],
-            technologies: ["Python", "PyTorch", "GradCAM", "SHAP", "XAI"]
+            technologies: []
         },
         {
-            position: "Independent Developer",
-            company: "Projects & Hackathons",
-            period: "2025 - Present",
+            position: "Researcher, Applied ML",
+            company: "RVCE Research Projects",
+            period: "Now",
             location: "India",
-            description: "Building end-to-end products across full-stack web, computer vision and embedded systems: a finance dashboard with AI insights, a cricket batting analyser, an ESP32 smart-metering testbed, and FairPay, a gig-worker payout auditor built at a hackathon.",
+            description: "Revising SENTINEL, an agentic framework that flags inciting social media content using LLM scoring and Neo4j graph centrality, for Springer SNAM. Also built a two-stage ensemble model for autism detection from fMRI (87.83% accuracy) and CNN crop diagnosis from multispectral imagery, and explored GradCAM/SHAP explainability on the SuperHybridNet architecture.",
             responsibilities: [],
-            technologies: ["React", "Node.js", "FastAPI", "OpenCV", "MediaPipe", "ESP32"]
+            technologies: []
         }
     ],
+    achievements: {
+        stats: [
+            { value: 9.23, decimals: 2, suffix: "", label: "GPA at RVCE" },
+            { value: 2, decimals: 0, suffix: "", label: "Research manuscripts" },
+            { value: 1, decimals: 0, suffix: "", label: "Best Paper Award" },
+            { value: 10, decimals: 0, suffix: "+", label: "Projects shipped" }
+        ],
+        items: [
+            {
+                tag: "Award",
+                title: "Best Paper Award, ICTST 2025",
+                detail: "IoT-Integrated Smart Lab Environment Monitor, IFRRA International Conference on Trends in Science and Technology",
+                date: "Jul 2025"
+            },
+            {
+                tag: "Manuscript",
+                title: "SENTINEL: Autonomous Agentic Framework for Detecting Inciting Social Media Content",
+                detail: "In revision, Springer Social Network Analysis and Mining (SNAM)",
+                date: "In revision"
+            }
+        ]
+    },
     projects: [
         {
             id: 1,

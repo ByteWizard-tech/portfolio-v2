@@ -15,7 +15,7 @@ A modern, high-performance **3D developer portfolio** built with **React**, **Ty
 - Tech stack pyramid with **42+ tools**
 - Built-in chess game + AI chat on the `/play` page
 - Fully responsive — desktop & mobile
-- Deployed on **Cloudflare Pages**
+- Deployed on **Cloudflare Pages** (the `/play` AI chat runs as a Pages Function in `functions/api/chat.js`)
 
 ---
 
